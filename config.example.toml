@@ -1,0 +1,28 @@
+# Copy to config.toml and fill in.
+
+[telegram]
+# From https://my.telegram.org/apps
+api_id = 0
+api_hash = ""
+# From @BotFather
+bot_token = ""
+# Numeric Telegram user IDs allowed to send videos.
+# Use @userinfobot to find yours. Empty list = nobody can use the bot.
+whitelist = []
+
+[stream]
+# Where the local HTTP proxy listens. Kodi connects here.
+# 127.0.0.1 is fine since Kodi is on the same machine.
+host = "127.0.0.1"
+port = 9988
+# How long a sent video stays playable (seconds). Telegram file references
+# go stale after roughly an hour, so don't set this much higher.
+ttl_seconds = 3000
+
+[kodi]
+host = "127.0.0.1"
+port = 8080
+# Set in Kodi: Settings > Services > Control > "Allow remote control via HTTP".
+# Leave user/password empty if you disabled auth.
+user = "kodi"
+password = ""
