@@ -1,5 +1,11 @@
 # tg-kodi
 
+## Use kodibot instead!!!
+
+https://github.com/sigasigasiga/kodibot
+
+---
+
 Send a video to a Telegram bot → it plays on Kodi immediately, streamed (no full download first).
 
 ## How it works
